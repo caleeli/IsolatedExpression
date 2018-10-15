@@ -1,0 +1,26 @@
+{
+    "name": "davidc/isolated-expression",
+    "description": "This package brings the posibility to execute PHP code isolated using php-cli",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "David Callizaya",
+            "email": "davidcallizaya@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nano\\IsolatedExpression\\": "src/Nano/IsolatedExpression/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
